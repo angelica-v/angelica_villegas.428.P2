@@ -4,26 +4,20 @@ using UnityEngine;
 
 public class broomMove : MonoBehaviour
 {
-
+    private Vector3 broomStart;
+    private Vector3 broomMove;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        broomStart = transform.position
     }
 
     // Update is called once per frame
     void Update()
     {
-       /* if (y >= 3)
-          {
-              y = y - speed * Time.deltaTime;
-          }
-          if (y < 3)
-          {
-              y = y + speed * Time.deltaTime;
-          }
-          apple.transform.position = new Vector3(0, y, 0);*/
+        broomMove = new Vector3(0.0f, 0.35 * Mathf.Sin(Time.time), 0.0f);
+        transform.position = broomStart + broomMove; 
     }
     
 }
