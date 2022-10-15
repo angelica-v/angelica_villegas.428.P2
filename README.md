@@ -61,12 +61,12 @@ For more information please visit the [project website](https://sites.google.com
      1. Connect the Oculus Quest to the computer with Unity via cord
      1. Click on **Android** and under **Run Device** make sure to select the Oculus device being used/device that is connected
      1. Ensure that permissions are allowed on the Oculus to connect to computer
-     1. Click ** Build And Run**
+     1. Click **Build And Run**
      1. Once you set up any boundaries need it should be running!
      1. If not, on the Oculus go to **Apps** and under the filter where it says **All** click and scroll down and click where it says **Unknown Sources**.
      1. Click on **P2.angelica_villegas salzar**. The application should now be running!
      1. Navigate by either walking the scene, or teleporting using the joystick in the righthand (move green dot to place and click to move)
-     1. To pick up/drop off items, click the side buttons as if you are grabbing the item. 
+     1. To pick up/drop off items, click the buttons as if you are grabbing the item. 
      
      
  Congrats!! You should now be able to navigate through the scene that was created!
