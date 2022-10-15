@@ -57,8 +57,8 @@ The goal was to create a VR environment that could be viewed in both Unity and i
      1. Ensure that **UnityXRPluginFramework** is enabled and **CameraRigs.SpatialSimulator** is disabled. One can do this by clicking **Toggle Active State** 
      1. Under **File** in the top bar, open **Build Settings**
      1. Connect the Oculus Quest to the computer with Unity via cord
-     1. Click on **Android** and under **Run Device** make sure to add the Oculus device being used
-     1. Ensure that permissions are allowed on the oculus to connect to computer
+     1. Click on **Android** and under **Run Device** make sure to select the Oculus device being used/device that is connected
+     1. Ensure that permissions are allowed on the Oculus to connect to computer
      1. Click ** Build And Run**
      1. Once you set up any boundaries need it should be running!
      1. If not, on the Oculus go to **Apps** and under the filter where it says **All** click and scroll down and click where it says **Unknown Sources**.
